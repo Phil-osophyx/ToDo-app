@@ -1,12 +1,14 @@
-import InlineComp from "./components/InlineComp";
-import OutlineComp from "./components/OutlineComp";
-import Todo from "./components/Todo"
+import Todo from "./components/Todo";
+import Header from "./components/Header"
+import "./App.css"
 
 function App() {
-  return <div className="App">
-    <InlineComp />
-    <OutlineComp/>
-  </div>;
+  return (
+    <div className="App">
+      <Header />
+      <Todo />
+    </div> 
+  );
 }
 
 export default App;
